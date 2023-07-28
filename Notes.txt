@@ -1,0 +1,7 @@
+                                 Searching Algorithms [Time complexity]
+                                  /                \   
+                    Linear Searching                Binary Searching
+                    [Unsorted array]                [Sorted array]
+                    *Best  case O(1)                *Best  case O(logn)
+                    *Worst case O(n)                *Worst case O(n)
+ 
