@@ -5,3 +5,10 @@
                     *Best  case O(1)                *Best  case O(logn)
                     *Worst case O(n)                *Worst case O(n)
  
+Hash Table :
+
+Operations      - Insertion, Deletion and Searching
+Time Complexity - O(1) [for all Operations]
+Hash Table is used only when the size of the array is small 
+else the space complextiy becomes larger
+
