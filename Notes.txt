@@ -12,3 +12,14 @@ Time Complexity - O(1) [for all Operations]
 Hash Table is used only when the size of the array is small 
 else the space complextiy becomes larger
 
+Closed Hashing [Open addressing] - The element placed other than its calculated address
+    *Linear Probing
+    *Quadratic Probing
+    *Double Probing
+    *+3 rehash
+
+Open Hashing [Separate Chaining] - Collision avoidance method - 
+                                   the elements that are placed in the array of linkedlist
+
+Time Complexity - O(1) in the best case
+                - O(n) in the worst case
