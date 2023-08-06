@@ -23,3 +23,15 @@ Open Hashing [Separate Chaining] - Collision avoidance method -
 
 Time Complexity - O(1) in the best case
                 - O(n) in the worst case
+
+Sorting :
+
+Selection Sort - to sort the elements in ascending order
+        
+    *Selection sorting is an In-place Algorithm
+
+Time Complexity - O(n^2)
+
+In-place Algorithm  - No need of extra space i.e., if I am currently using one array , then I don't need any new array
+for same work  
+[ https://www.geeksforgeeks.org/in-place-algorithm/ ]
