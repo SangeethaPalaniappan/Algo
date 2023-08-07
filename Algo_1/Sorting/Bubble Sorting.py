@@ -10,17 +10,17 @@ o=len(s)
 # If there is no swapping occurs , then the array is sorted
 
 for i in range(o-1):
-   m=0 # initialise for the loop
-   d=len(s)
-   l=0 # this variable is assigning because to check whether the array is sorted or not
-   while m!=d-1:
+    m=0 # initialise for the loop
+    d=len(s)
+    l=0 # this variable is assigning because to check whether the array is sorted or not
+    while m!=d-1:
         if s[m]>s[m+1]:
             s[m],s[m+1]=s[m+1],s[m]
-            l==1 
+            l=1 
         m+=1    
     if l==0: # After the 1st loop still l==0 break the loop
         break
-        
-   s.pop()         
-print("Popped element:",s.pop())
+    o-=1    # here reducing the size because the last ele,
+           
+
 print(s)
