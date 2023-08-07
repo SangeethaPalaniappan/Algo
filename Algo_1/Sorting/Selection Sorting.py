@@ -12,14 +12,12 @@ m=len(s)
 
 for i in range(m-1): 
     # Here we check from the next of i , so the reange starts from i+1
+   
     
     for j in range(i+1,m):
         # If the current position's element is greate then swap it with the compared element
         
-        k=True
         if s[i]>s[j]:
             s[i],s[j]=s[j],s[i]
-            k=False
-        if k==True:
-            break
+    
 print(s)            
