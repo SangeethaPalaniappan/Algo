@@ -2,6 +2,8 @@
 
 #Time Complexity of this sorting is O(n^2)
 
+# The elements are sorted from left to right 
+
 s=[90,120,40,230,80]
 m=len(s)
 
