@@ -3,7 +3,7 @@
 #Time complexity - O(n^2) [worst]
 # Best case      - O(n)
 # The elements are sorted from right to left
-s=[5, 10, 20, 30, 50]
+s=[50, 20, 30, 10, 5]
 o=len(s)
 
 # iterate to check the maximum element with its adjacent element
