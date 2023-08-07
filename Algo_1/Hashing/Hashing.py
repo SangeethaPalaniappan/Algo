@@ -1,3 +1,4 @@
+#Not gave any particular value
 #Inserting
 def hashing(val,size):
     s=val%size #position to be added [size divides the value and the value stored in the reminder] 
