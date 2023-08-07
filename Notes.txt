@@ -5,6 +5,9 @@
                     *Best  case O(1)                *Best  case O(logn)
                     *Worst case O(n)                *Worst case O(n)
  
+
+Auxiliary Space - The extra space that is taken by an algorithm temporarily to finish its work
+
 Hash Table :
 
 Operations      - Insertion, Deletion and Searching
