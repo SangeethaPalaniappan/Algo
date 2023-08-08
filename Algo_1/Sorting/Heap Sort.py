@@ -1,31 +1,4 @@
-
-
-#Need to write Binary Heap
-
-'''
-#To work on linkedlist
-class Node:
-    def __init__(self,val):
-        self.data=val
-        self.right=None
-        self.left=None
-        
-        
-def Insert(root,val):
-    if root.data==None:
-        root.data=val
-    elif root.left==None:
-        root.left.data=val
-    elif root.right==None:
-        root.right=val
-    
-    Insert(root,val)
-    '''
-
-
-'''class Index:
-    def __init__(self,a):            #can also use this
-        self.m=a.append(None)'''
+# Heap Sorting
 
 
 def dswap(i,arr,size):#i is the parent node
