@@ -28,29 +28,31 @@ def Insert(root,val):
         self.m=a.append(None)'''
 
 
-def dswap(i,arr):#i is the parent node
+def dswap(i,arr,size):#i is the parent node
     left=(2*i)+1
     right=left+1
-    if left<len(arr):
+    
+    
+    if left<size:
         temp=arr[i]
-        if right==len(arr):#Having only left child 
+        if right==size:#Having only left child 
             if arr[i]<arr[left]:
                 arr[i]=arr[left]
                 arr[left]=temp
-            return arr
+            
         else:
             if arr[i]<arr[left] or arr[i]<arr[right]:#to check the root node's children are greater than the parent
                 #if the root node is lesser then check whhich child is greater
                 if arr[left]<arr[right]:
                     arr[i]=arr[right]
                     arr[right]=temp
-                    dswap(right,arr)
+                    dswap(right,arr,size-1)
                 else:
                     arr[i]=arr[left]
                     arr[left]=temp
-                    dswap(left,arr)
-            return arr
-    elif left>=len(arr):
+                    dswap(left,arr,size-1)
+            
+    elif left>=size:
         return arr
 
 # Delete is the Top-down approach
@@ -64,16 +66,16 @@ def delete(arr):
         temp=a[0]
         arr[0]=arr[c-1]
         arr[c-1]=temp
-        dswap(0,arr)
+        dswap(0,arr,c-1)
         c-=1
-        return arr
+    return arr
 
 def Heap(arr,size):
     l=size//2
     while l>=0:
         Heapify(arr,l,size)
         l-=1
-    return arr    
+    return arr        
 
 def Heapify(arr,i,size):#to check the given array satisfies the BH property else heapify it
     left=(2*i)+1
@@ -94,8 +96,8 @@ def Heapify(arr,i,size):#to check the given array satisfies the BH property else
 a=[30,50,10,90,60]
 a=Heap(a,len(a))
 
-for i in a:
-    print(i,end=" ")
+#for i in a:
+#    print(i,end=" ")
 
 delete(a)
 
