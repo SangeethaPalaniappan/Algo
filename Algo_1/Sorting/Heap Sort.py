@@ -1,5 +1,6 @@
 # Heap Sorting
 
+#Time complexity - O(nlogn)
 
 def dswap(i,arr,size):#i is the parent node
     left=(2*i)+1
