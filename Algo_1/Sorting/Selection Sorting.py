@@ -4,6 +4,10 @@
 
 # The elements are sorted from left to right 
 
+# If the length of the array is equal to one then print it is sorted array
+
+# If the length is 0 then print no array exists
+
 s=[90,120,40,230,80]
 m=len(s)
 

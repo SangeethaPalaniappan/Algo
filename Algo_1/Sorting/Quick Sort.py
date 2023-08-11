@@ -6,6 +6,11 @@
 
 # Worst case Time complexity - O(n^2)
 
+# If the length of the array is equal to one then print it is sorted array
+
+# If the length is 0 then print no array exists
+
+
 def Quick_sort(i,j,pivot,a):
     # It will be used for the recursive function
     start=i

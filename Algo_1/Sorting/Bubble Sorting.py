@@ -1,13 +1,22 @@
 #Bubble Sorting - swap the maximum elements with its adjacent element , when it reaches the end of the array pop it
 
 #Time complexity - O(n^2) [worst]
+
 # Best case      - O(n)
+
 # The elements are sorted from right to left
+
+# If the length of the array is equal to one then print it is sorted array
+
+# If the length is 0 then print no array exists
+
 s=[50, 20, 30, 10, 5]
 o=len(s)
 
 # iterate to check the maximum element with its adjacent element
+
 # If the adjacent element is greater than the element then swap it 
+
 # If there is no swapping occurs , then the array is sorted
 
 for i in range(o-1):

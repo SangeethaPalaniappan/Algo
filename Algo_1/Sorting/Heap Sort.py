@@ -1,6 +1,10 @@
 # Heap Sorting
 
-#Time complexity - O(nlogn)
+# Time complexity - O(nlogn)
+
+# If the length of the array is equal to one then print it is sorted array
+
+# If the length is 0 then print no array exists
 
 def dswap(i,arr,size):#i is the parent node
     left=(2*i)+1
