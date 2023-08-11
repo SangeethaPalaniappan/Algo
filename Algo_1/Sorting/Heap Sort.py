@@ -69,7 +69,7 @@ def Heapify(arr,i,size):#to check the given array satisfies the BH property else
         arr[temp]=arr[i]
         arr[i]=s
         
-        Heapify(arr,temp,size)
+        Heapify(arr,temp,size) # this heapify is for the swapped index
 
 a=[30,50,10,90,60]
 a=Heap(a,len(a))
