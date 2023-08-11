@@ -33,7 +33,8 @@ def Quick_sort(i,j,pivot,a):
             a[j],a[pivot]=a[pivot],a[j]
             pivot=j
        
-                   
+    # After changing the pivot index j will be less than i, which will not allow further recursives            
+      
     j=i
     i=pivot        
     if i<j:
