@@ -13,8 +13,8 @@ def fractionalKnapsack(W, arr):
 
 	# Result(value in Knapsack)
 	finalvalue = 0.0
-
-	# Looping through all Items
+    
+    # Looping through all Items
 	for item in arr:
 
 		# If adding Item won't overflow,
