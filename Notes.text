@@ -1,0 +1,42 @@
+                                 Searching Algorithms [Time complexity]
+                                  /                \   
+                    Linear Searching                Binary Searching
+                    [Unsorted array]                [Sorted array]
+                    *Best  case O(1)                *Best  case O(logn)
+                    *Worst case O(n)                *Worst case O(n)
+ 
+
+Auxiliary Space - The extra space that is taken by an algorithm temporarily to finish its work
+
+Hash Table :
+
+Operations      - Insertion, Deletion and Searching
+Time Complexity - O(1) [for all Operations]
+Hash Table is used only when the size of the array is small 
+else the space complextiy becomes larger
+
+Closed Hashing [Open addressing] - The element placed other than its calculated address
+    *Linear Probing
+    *Quadratic Probing
+    *Double Probing
+    *+3 rehash
+
+
+Open Hashing [Separate Chaining] - Collision avoidance method - 
+                                   the elements that are placed in the array of linkedlist
+
+Time Complexity - O(1) in the best case
+                - O(n) in the worst case
+
+Sorting :
+
+Selection Sort - to sort the elements in ascending order
+        
+    *Selection sorting is an In-place Algorithm
+
+Time Complexity - O(n^2)
+
+In-place Algorithm  - No need of extra space i.e., if I am currently using one array , then I don't need any new array
+for same work  
+[ https://www.geeksforgeeks.org/in-place-algorithm/ ]
+
