@@ -1,0 +1,89 @@
+                                 Searching Algorithms [Time complexity]
+                                  /                \   
+                    Linear Searching                Binary Searching
+                    [Unsorted array]                [Sorted array]
+                    *Best  case O(1)                *Best  case O(logn)
+                    *Worst case O(n)                *Worst case O(n)
+ 
+
+Auxiliary Space - The extra space that is taken by an algorithm temporarily to finish its work
+
+Hash Table :
+
+Operations      - Insertion, Deletion and Searching
+Time Complexity - O(1) [for all Operations]
+Hash Table is used only when the size of the array is small 
+else the space complextiy becomes larger
+
+Closed Hashing [Open addressing] - The element placed other than its calculated address
+    *Linear Probing
+    *Quadratic Probing
+    *Double Probing
+    *+3 rehash
+
+
+Open Hashing [Separate Chaining] - Collision avoidance method - 
+                                   the elements that are placed in the array of linkedlist
+
+Time Complexity - O(1) in the best case
+                - O(n) in the worst case
+
+Sorting :
+
+Selection Sort :
+    To sort the elements [in ascending order] by checking with every element in the given array
+        
+    *Selection sorting is an In-place Algorithm
+
+Time Complexity  - O(n^2)
+
+Space Complexity - O(n) For the size of the array
+
+In-place Algorithm  - No need of extra space i.e., if I am currently using one array , then I don't need any new array
+for same work  
+[ https://www.geeksforgeeks.org/in-place-algorithm/ ]
+
+Bubble Sort :
+    To sort the elements [in ascending order] by comparing the element with its adjacent element to place the maximum element
+    from right to left
+
+    *In-place Algorithm
+
+Time Complexity - O(n^2)
+Best Case       - O(n)  If the array is Sorted
+
+Space Complexity - O(n) For the size of the array
+
+Insertion Sort :
+    Keep the first element fixed , check from the 2nd element , check from the current index to the 0th index ,check with the before adjacent element if it is maximum swap it 
+
+Time complexity - O(n^2)
+
+Best case      - O(n)   If the array is Sorted
+
+Space Complexity - O(n) For the size of the array
+
+Heap Sorting :
+    To sort the elements [in ascending order] using heapify and swap the maximum element with the last node and reduce the size of the array and again heapify do the same process
+
+Time complexity  - O(nlogn)
+
+Space Complexity - O(n) For the size of the array
+
+Need to complete Merge and Quick sort !!!
+ 
+Greedy Algorithm :
+
+1.Knapsack Problem 
+
+2.Job Sequencing with deadlines 
+
+    Sort the given jobs based on the profit - TC [O(nlogn)]
+    
+    Arrange them based on the deadline from the end of the array {which will take O(n^2)}
+    
+    Time Complextiy - O(n^2)
+    
+    Every job takes a single unit of time
+
+    
